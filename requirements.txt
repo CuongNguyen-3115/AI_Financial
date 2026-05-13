@@ -1,0 +1,25 @@
+# --- MetaGPT Framework ---
+metagpt
+
+# --- LLM & API Clients ---
+google-genai
+python-dotenv
+requests
+tenacity
+
+# --- Data Processing & Analysis ---
+pandas
+numpy
+matplotlib
+python-dateutil
+
+# --- Web Scraping & News ---
+beautifulsoup4
+feedparser
+
+# --- PDF & Document Processing ---
+pymupdf
+pymupdf4llm
+
+# --- Financial Data ---
+vnstock

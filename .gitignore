@@ -1,0 +1,31 @@
+# Nội dung file .gitignore
+__pycache__/
+.env
+config/config2.yaml
+data/raw_data/*
+data/processed_data/*
+data/financial_reports/*
+*.parquet
+*.log
+# Môi trường ảo
+.venv/
+venv/
+
+# Thư mục cache của Python
+__pycache__/
+*.pyc
+
+# Thư mục dữ liệu (Bạn không nên push file PDF hay parquet nặng lên Git)
+data/raw_data/ohlcv/*.parquet
+data/financial_reports/**/*.pdf
+.aider*
+
+# Bỏ qua thư mục dữ liệu (PDF, CSV, Parquet,...)
+/data/
+
+# Bỏ qua thư mục source code của thư viện MetaGPT
+/metagpt/
+
+# Bỏ qua các script tiện ích cá nhân
+/lib_list.py
+/tree_view.py
