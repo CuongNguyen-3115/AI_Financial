@@ -91,3 +91,9 @@ Tiến hành khởi chạy hệ thống bằng cách thực thi tệp `main.py`.
 ```bash
 python main.py
 ```
+
+## 4. Kết quả
+
+Hệ thống cung cấp các đầu ra phân tích dưới định dạng Markdown chuyên nghiệp, tối ưu hóa cho việc đọc và lưu trữ kết quả tư vấn. Để có cái nhìn trực quan về năng lực xử lý dữ liệu và chất lượng tư vấn của các Agent trong điều kiện thực tế, một số phản hồi mẫu tiêu biểu đã được trích xuất và tổng hợp tại tệp: Response.md.
+
+Người dùng có thể tham khảo tệp này để hiểu rõ hơn về cấu trúc báo cáo tổng hợp, cách thức Agent trích xuất luận điểm đầu tư cũng như cách hệ thống trình bày các chỉ báo kỹ thuật và mục tiêu giá.
