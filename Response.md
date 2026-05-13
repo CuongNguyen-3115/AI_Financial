@@ -191,7 +191,7 @@ Việc bán tháo ở vùng giá hiện tại (quanh 70.000 - 73.000 VNĐ) là k
 ********************************************************************************
 BÁO CÁO TƯ VẤN ĐẦU TƯ TỔNG HỢP (FINAL REPORT)
 ********************************************************************************
-```markdown
+
 ### BÁO CÁO TƯ VẤN ĐẦU TƯ CHO MÃ CỔ PHIẾU FPT
 
 #### **Tóm tắt Nhanh (Executive Summary):**
@@ -241,5 +241,5 @@ Dựa trên phân tích và cân nhắc khẩu vị rủi ro của khách hàng 
   - https://cafef.vn/tien-lon-chon-loc-chuyen-gia-chi-ten-nhom-co-phieu-xep-hang-cao-tren-thi-truong-188260512213550455.chn
   - https://cafef.vn/vn-index-ap-sat-dinh-lich-su-ctck-canh-bao-kich-ban-xanh-vo-do-long-188260512212732752.chn
   - https://cafef.vn/mot-cong-ty-chung-khoan-von-nghin-ty-bi-phat-nang-188260512212628665.chn
-```
+
 ********************************************************************************
