@@ -1,6 +1,6 @@
 # AI Financial Analyst System
 
-Hệ thống tư vấn đầu tư và phân tích tài chính tự động hóa đa chiều (360-degree), được xây dựng dựa trên kiến trúc Multi-Agent của nền tảng MetaGPT. Dự án tập trung giải quyết bài toán xử lý dữ liệu tài chính phi cấu trúc (báo cáo PDF, tin tức thị trường) và dữ liệu có cấu trúc (OHLCV, chỉ báo kỹ thuật) thông qua việc phối hợp linh hoạt năng lực xử lý của nhiều mô hình ngôn ngữ lớn (LLMs).
+Hệ thống tư vấn đầu tư và phân tích tài chính tự động hóa đa chiều, được xây dựng dựa trên kiến trúc Multi-Agent của nền tảng MetaGPT. Dự án tập trung giải quyết bài toán xử lý dữ liệu tài chính phi cấu trúc (báo cáo PDF, tin tức thị trường) và dữ liệu có cấu trúc (OHLCV, chỉ báo kỹ thuật) thông qua việc phối hợp linh hoạt năng lực xử lý của nhiều mô hình ngôn ngữ lớn (LLMs).
 
 Hệ thống này đóng vai trò như một bộ máy phân tích chuyên sâu, tự động hóa toàn bộ quy trình từ khâu thu thập dữ liệu thô đến việc ra quyết định của một đội ngũ chuyên gia tài chính.
 
@@ -9,7 +9,7 @@ Hệ thống này đóng vai trò như một bộ máy phân tích chuyên sâu,
 * **Kiến trúc Multi-Agent (Cerebrum Orchestrator):** Hệ thống được vận hành bởi một Manager Agent trung tâm. Agent này chịu trách nhiệm phân tích ngữ nghĩa yêu cầu từ người dùng, tự động lập kế hoạch và phân bổ tác vụ chuyên biệt cho các chuyên gia (Sub-agents) cấp dưới theo thời gian thực.
 * **Xử lý dữ liệu tài liệu lai (Hybrid PDF Processing):** Hệ thống tự động thu thập và trích xuất báo cáo phân tích tài chính từ nguồn Vietstock. Tích hợp thuật toán nhận diện các trang chứa biểu đồ, đồ thị để xử lý thông qua Vision-Language Model (Gemini VLM), đồng thời chuyển đổi văn bản thuần túy sang định dạng Markdown qua thư viện PyMuPDF. Quy trình này đảm bảo tính toàn vẹn của ngữ cảnh và cấu trúc tài liệu đầu vào cho LLM.
 * **Cơ chế luân chuyển LLM thông minh (Smart LLM Rotation):** Dự án tích hợp cơ chế xoay vòng mô hình dự phòng (Failover Mechanism), luân chuyển linh hoạt giữa các nhà cung cấp như Groq (Llama-3), Google (Gemini) và GitHub Models. Cơ chế này tối ưu hóa hạn mức truy cập API (Quota), tự động vượt qua các giới hạn Rate Limit (lỗi HTTP 429) nhằm đảm bảo tính sẵn sàng và ổn định cao cho hệ thống.
-* **Quy trình phân tích 360 độ:**
+* **Quy trình phân tích đa chiều:**
     * **Sentiment Analysis (Phân tích Tâm lý thị trường):** Đánh giá biến động tâm lý thông qua việc xử lý ngôn ngữ tự nhiên trên các bản tin vĩ mô và vi mô.
     * **Quantitative Analysis (Phân tích Định lượng Kỹ thuật):** Truy xuất thông tin doanh nghiệp, phân tích biến động dữ liệu giá lịch sử (OHLCV) và tính toán các chỉ báo kỹ thuật cốt lõi (SMA, RSI).
     * **Fundamental Analysis (Phân tích Cơ bản):** Trích xuất, phân mảnh (Map) và tổng hợp (Reduce) các luận điểm đầu tư, rủi ro, cùng mức giá mục tiêu (Target Price) từ các báo cáo chuyên sâu.
