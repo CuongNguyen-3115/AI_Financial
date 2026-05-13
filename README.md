@@ -52,7 +52,7 @@ Dự án được tổ chức theo tiêu chuẩn module hóa nhằm tối ưu qu
 │   └── llm_rotator.py            # Lớp đối tượng quản lý và điều phối xoay vòng LLM
 ├── .env                          # Tệp biến môi trường bảo mật lưu trữ API Keys
 └── main.py                       # Tệp khởi chạy toàn bộ hệ thống (Entry point)
-
+```
 ## 3. Hướng dẫn cài đặt và vận hành (Installation & Setup)
 
 ### 3.1. Yêu cầu môi trường
