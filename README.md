@@ -64,9 +64,10 @@ Kích hoạt môi trường ảo và tiến hành cài đặt các thư viện l
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3.3. Thiết lập biến môi trường
-Tạo tệp `.env` tại thư mục gốc của dự án và khai báo các thông số bảo mật, định danh mô hình tương ứng với các nền tảng cung cấp API:
+Tạo tệp `.env` tại thư mục gốc của dự án và khai báo các thông số bảo mật, định danh mô hình tương ứng với các nền tảng cung cấp API, ví dụ:
 
 ```env
 # Cấu hình API Google Gemini
@@ -82,6 +83,7 @@ GROQ_MODEL_ID_6=llama-3.1-8b-instant
 # Cấu hình API GitHub Models 
 GITHUB_TOKEN=your_github_token
 GITHUB_MODEL_ID_1=gpt-4o
+```
 
 ### 3.4. Khởi chạy hệ thống
 Tiến hành khởi chạy hệ thống bằng cách thực thi tệp `main.py`. Quá trình này sẽ tự động kiểm tra cấu hình, phân bổ tác vụ cho các Agent, tìm nạp dữ liệu đa luồng theo thời gian thực và xuất bản báo cáo phân tích toàn diện ra giao diện dòng lệnh.
